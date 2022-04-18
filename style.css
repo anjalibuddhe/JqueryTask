@@ -1,0 +1,261 @@
+body {
+    color: #DDDDDD;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#dropdown {
+    margin: 1rem;
+}
+
+#logoserch {
+    margin-left: 10rem;
+}
+
+#search {
+    width: 25rem;
+}
+
+#header1 {
+    height: 4rem;
+}
+
+.header1 {
+    margin-top: -10px;
+}
+
+.headericon {
+    color: grey;
+
+}
+
+.hicon a i {
+
+    margin: 0.5rem;
+}
+
+.hicon {
+    width: 16%;
+
+}
+
+/* 
+.sqr {
+    border: 1px solid grey;
+} */
+
+/* .hicon a i.sqr1 {
+    margin-left: 0.5rem;
+} */
+
+.tsymbol {
+    margin-left: 1.5rem;
+    color: black;
+}
+
+.rform {
+    border-radius: 20px;
+    background-color: #cff2f9;
+}
+
+.icond {
+    color: #D1D1D1;
+}
+
+.nav_bar {
+    background-color: #cff2f9;
+}
+
+#nav-list {
+    margin-left: -100px;
+}
+
+#nav-list li {
+    margin-left: 5px;
+}
+
+
+#cloud .fa-solid {
+    font-size: 30px;
+
+}
+
+#menuicon .fa-solid {
+    font-size: 30px;
+    color: black;
+}
+
+/* #client {
+    background-color: #EEEEEE; 
+    border-top: 3px solid #161E54;
+    margin-top: 2px;
+} */
+
+.header2 ul li {
+    margin-top: -10px;
+}
+
+.fa-pen {
+    color: black;
+}
+
+#line {
+    margin-top: -5px;
+    border: 2px solid #161E54;
+}
+
+#empty_glass i {
+    color: black;
+    margin-left: 12rem;
+    margin-top: 15px;
+}
+
+.nav-item {
+
+    color: #161E54;
+
+}
+
+.nav .active {
+    color: white;
+    background: #3D56B2;
+}
+
+.nav_bar {
+    width: 100%;
+}
+
+#main_table {
+
+    background-color: white;
+    color: black;
+}
+
+.table1 {
+    color: black;
+}
+
+.name {
+    color: blue;
+}
+
+.rounded-pill {
+    color: black;
+}
+
+#lastd {
+    color: blue;
+    border-bottom: none;
+}
+
+#lastd span {
+    color: black;
+}
+
+.btn1 {
+    background-color: #EEEEEE;
+}
+
+.btn2 {
+    background-color: #c6cbcc;
+}
+
+.table2 {
+    border-right: 2px solid gray;
+}
+
+tr:hover {
+    background-color: #c8d8e9;
+}
+
+.call {
+    background: gray;
+    padding: 9px;
+    font-weight: 600;
+}
+
+
+
+
+
+.info {
+    background-color: #F8F8FA;
+    width: 106%;
+    height: auto;
+    box-shadow: 0 -5px 15px -5px #99ccff;
+    margin-left: -10px;
+}
+
+#fname {
+    font-size: 15px;
+}
+
+#upcoming {
+    font-size: 20px;
+}
+
+#no {
+    text-align: center;
+    padding: 2px;
+}
+
+#idate {
+    color: gray;
+    padding: 2px;
+}
+
+.msg {
+    color: green;
+}
+
+.ms .fa-message {
+    font-size: 23px;
+    margin-bottom: 2rem;
+
+
+}
+
+.en .fa-envelope-open {
+    font-size: 20px;
+    color: #F900BF;
+    margin-bottom: 2rem;
+}
+
+.lefticonl {
+    margin-left: 15rem;
+}
+
+.boo .fa-book {
+    color: #4700D8;
+    font-size: 23px;
+    margin-bottom: 2rem;
+}
+
+.dnone {
+    display: none;
+}
+
+.em .fa-at {
+    color: blue;
+    font-size: 23px;
+    margin-bottom: 2rem;
+
+}
+
+.left1 {
+    margin-left: 6rem;
+}
+
+.left2 {
+    margin-left: 2rem;
+}
+
+.left3 {
+    margin-left: 9rem;
+}
+
+.left4 {
+    margin-left: 7rem;
+}

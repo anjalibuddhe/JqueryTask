@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>webtrixTask</title>
+</head>
+
+
+<body>
+    <header class="p-3 border-bottom" id="header1">
+        <div class="container-fluid">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="" id="cloud"><i class="fa-solid fa-cloud"></i></a>
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+
+                    </svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto justify-content-center " id="logoserch">
+                    <li><a href="#" class="nav-link px-2 link-secondary">All</a></li>
+                    <li><i class="fa-solid fa-caret-down" id="dropdown"></i></li>
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                        <input id="search" type="search" class="form-control" placeholder="Search..."
+                            aria-label="Search">
+                    </form>
+                </ul>
+
+
+
+                <div class="hicon">
+                    <a href=""><i class="fa-solid fa-star headericon sqr"></i></a>
+                    <a href=""><i class="fa-solid fa-sort-down headericon sqr sqr1"></i></a>
+                    <a href=""><i class="fa-solid fa-square-plus headericon"></i></a>
+                    <a href=""><i class="fa-solid fa-question headericon"></i></i></a>
+                    <a href=""><i class="fa-solid fa-gear headericon"></i></a>
+                    <a href=""><i class="fa-solid fa-bell headericon"></i></a>
+                    <!-- <a href=""><i class="fa-solid fa-snowman"></i></a> -->
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header class="p-1  border-bottom header2">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
+                <a href="" id="menuicon"><i class="fa-solid fa-bars"></i></a>
+                <!-- <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none"> -->
+                <svg class="bi me-2" width="30" height="28" role="img" aria-label="Bootstrap">
+                </svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 px-2">
+                    <li><a href="#" class="nav-link px-2 link-secondary">Inflooens </a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Home</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Customers
+                            <i class="fa-solid fa-angle-down icond"></i>
+
+                        </a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark" id="client">Client
+                            <i class="fa-solid fa-angle-down"></i>
+
+                        </a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Business Patrner
+                            <i class="fa-solid fa-angle-down"></i>
+
+                        </a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Loans
+                            <i class="fa-solid fa-angle-down"></i>
+
+                        </a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Report
+                            <i class="fa-solid fa-angle-down"></i>
+
+                        </a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Dashbord
+                            <i class="fa-solid fa-angle-down"></i>
+
+                        </a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Work Assingment
+                            <i class="fa-solid fa-angle-down"></i>
+
+                        </a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Marketing Template
+                            <i class="fa-solid fa-angle-down"></i>
+
+                        </a></li>
+                </ul>
+
+
+
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block" id="dropdownUser1">
+                        <i class="fa-solid fa-pen"></i> </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="line"></div>
+    <div class="container-fluid nav_bar">
+        <nav class="py-2  border-bottom nav_bar">
+            <div class="container d-flex flex-wrap">
+                <ul class="nav" id="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 active" aria-current="page">All
+                            Clients</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2">New Leads</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2">Recently Added</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2">Pre-approval in process</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2">Pre-approved</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2">loan in process</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link  px-2">Dormant Leads</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link  px-2">Top Advocate</a></li>
+                </ul>
+                <ul class="nav">
+                    <li id="empty_glass" class="px-"><i class="fa-solid fa-martini-glass-empty"></i></li>
+
+                </ul>
+            </div>
+            <div class="container-fluid" id="main_table">
+
+                <div class="row">
+                    <div class="col-9">
+                        <header>
+
+
+                            <div class="px-3 py-2 mt-1 mb-2 border-bottom">
+                                <div class="container d-flex flex-wrap justify-content-center">
+                                    <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
+                                        <input type="search" class="form-control rform" placeholder="Search..."
+                                            aria-label="Search">
+                                    </form>
+
+                                    <div class="text-end">
+                                        <p><span>Show</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>Result
+                                                10</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <span> <i class="fa-solid fa-angle-down"></i></span>&nbsp;&nbsp;&nbsp;
+                                            <span><i class="fa-solid fa-plus"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </header>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Client Name</th>
+                                    <th scope="col">Brrower Type</th>
+                                    <th scope="col">Phone Number</>
+                                    <th scope="col">Source</th>
+                                    <th scope="col">Refferd By</th>
+                                    <th scope="col">Owner</th>
+                                    <th scope="col">Last contacted</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+
+                                    <td class="name" value="0">leena kristoffer</td>
+                                    <td><button type="button" class="btn btn-outline-primary rounded-pill btn1"
+                                            value="0">Primary
+                                            Browser</button></td>
+                                    <td></td>
+                                    <td>Client referred</td>
+                                    <td>Max Smith</td>
+                                    <td>Sam Gerado</td>
+                                    <td>feb 23, 2022</td>
+                                </tr>
+                                <tr>
+                                    <td class="name" id="show" value="1">Neha kristoffer</td>
+                                    <td><button type="button" class="btn btn-outline-primary rounded-pill btn2"
+                                            value="1">Co-
+                                            Browser</button></td>
+                                    <td>(012) 1901923</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Sam Gerado</td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="name" value="2">Jeeva class</td>
+                                    <td><button type="button" class="btn btn-outline-primary rounded-pill btn1"
+                                            value="2">Primary
+                                            Browser</button></td>
+                                    <td>(208) 1901967</td>
+                                    <td>Walk In</td>
+                                    <td>Lenna kristoffer</td>
+                                    <td>Sam Gerado</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="name" value="3">Zenab Class</td>
+                                    <td><button type="button" class="btn btn-outline-primary rounded-pill btn2"
+                                            value="3">Primary
+                                            Browser</button></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td> </td>
+                                    <td>Sam Gerado</td>
+                                    <td>feb 22, 2022</td>
+                                </tr>
+                                <tr>
+                                    <td class="name" value="4">Mahi Kuzma</td>
+                                    <td><button type="button" class="btn btn-outline-primary rounded-pill btn1"
+                                            value="4">Co-
+                                            Browser</button></td>
+                                    <td></td>
+                                    <td>Patrner referred</td>
+                                    <td>Jimmi William</td>
+                                    <td>Sam Gerado</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="name" value="5">Jopesh Watt</td>
+                                    <td><button type="button" class="btn btn-outline-primary rounded-pill btn2"
+                                            value="5">Co-
+                                            Browser</button></td>
+                                    <td></td>
+                                    <td>Phone Inquiry</td>
+                                    <td></td>
+                                    <td>Sam Gerado</td>
+                                    <td>feb 18, 2022</td>
+                                </tr>
+                                <tr>
+                                    <td class="name" value="6">leena kristoffer</td>
+                                    <td><button type="button" class="btn btn-outline-primary rounded-pill btn1"
+                                            value="6">Primary
+                                            Browser</button></td>
+                                    <td></td>
+                                    <td>Client referred</td>
+                                    <td>Max Smith</td>
+                                    <td>Sam Gerado</td>
+                                    <td></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <div class="text-end">
+                            <p id="lastd">1-10 of 95
+                                <span><i class="fa-solid fa-chevron-left"></i></span>
+                                <span><i class="fa-solid fa-chevron-right"></i></span>
+                            </p>
+                        </div>
+                        <span class="call">
+                            <span><i class="fa-solid fa-bars"></i>&nbsp;</span>Log a Call
+                        </span>
+                    </div>
+
+                    <!--  -->
+                    <div class="col-3" style="border-left: 1px solid #cdd0d4" id="lastback">
+                        <div class="px-6  p-3 mb-2">
+                            <div class="container d-flex flex-wrap justify-content-center">
+                                <form class="col-12 col-lg-auto mb-lg-0 me-lg-auto" id="formback">
+                                    <a href=""><i class="fa-solid fa-phone tsymbol"></i></a>
+                                    <a href=""><i class="fa-solid fa-comment-sms tsymbol"></i></a>
+                                    <a href=""><i class="fa-solid fa-message tsymbol"></i></a>
+                                    <a href=""><i class="fa-solid fa-note tsymbol"></i></a>
+                                    <a href=""><i class="fa-solid fa-file-lines tsymbol"></i> </a>
+                                    <a href=""><i class="fa-solid fa-comment-medical tsymbol"></i></a>
+                                    <a href=""><i class="fa-solid fa-video tsymbol"></i></a>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- information first -->
+                        <div class="info" id="first1">
+                            <p id="fname">Leena's Timeline</p>
+
+                            <div id="upcoming">Upcoming </div>
+                            <p id="no">No Upcoing Activities</p>
+                            <hr>
+                            <p id="fname">Past Activities</p>
+                            <div id="idate">Feb 24,2014</div>
+                            <div><span class="ms"><i class="fa-solid fa-message msg"></i></span>
+                                VOE -Arificiall intelligency
+                                <span><i class="fa-solid fa-angle-left left1"></i></span>
+                            </div>
+                            <div id="idate">Feb 24,2014</div>
+
+                            <div><span class="en"><i class="fa-solid fa-envelope-open"></i></span>
+                                Pre-Approval-Conventional Purches
+                                <span><i class="fa-solid fa-angle-left left2"></i></span>
+                            </div>
+                            <div id="idate">Feb 24,2014</div>
+
+                            <div><span class="boo"><i class="fa-solid fa-book"></i></span>
+                                Request Document
+                                <span><i class="fa-solid fa-angle-left left3"></i></span>
+                            </div>
+                            <div><span class="en"><i class="fa-solid fa-envelope-open"></i></span>
+                                Here is list of document
+                                <span><i class="fa-solid fa-angle-left left4"></i></span>
+                            </div>
+                            <div><span class="em"><i class="fa-solid fa-at"></i></span>
+                                Email
+                                <span><i class="fa-solid fa-angle-left lefticonl"></i></span>
+                            </div>
+                        </div>
+                        <!-- information second -->
+
+                        <div class="info dnone" id="first">
+                            <p id="fname">Neha's Timeline</p>
+
+                            <div id="upcoming">Upcoming </div>
+                            <p id="no">No Upcoing Activities</p>
+                            <hr>
+                            <p id="fname">Past Activities</p>
+                            <div id="idate">Feb 24,2014</div>
+                            <div><span class="ms"><i class="fa-solid fa-message msg"></i></span>
+                                VOE -Arificiall intelligency
+                                <span><i class="fa-solid fa-angle-left left1"></i></span>
+                            </div>
+                            <div id="idate">Feb 24,2014</div>
+
+                            <div><span class="en"><i class="fa-solid fa-envelope-open"></i></span>
+                                Pre-Approval-Conventional Purches
+                                <span><i class="fa-solid fa-angle-left left2"></i></span>
+                            </div>
+                            <div id="idate">Feb 24,2014</div>
+
+                            <div><span class="boo"><i class="fa-solid fa-book"></i></span>
+                                Request Document
+                                <span><i class="fa-solid fa-angle-left left3"></i></span>
+                            </div>
+                            <div><span class="en"><i class="fa-solid fa-envelope-open"></i></span>
+                                Here is list of document
+                                <span><i class="fa-solid fa-angle-left left4"></i></span>
+                            </div>
+                            <div><span class="em"><i class="fa-solid fa-at"></i></span>
+                                Email
+                                <span><i class="fa-solid fa-angle-left lefticonl"></i></span>
+                            </div>
+                        </div>
+                        <!--info third -->
+                        <div class="info dnone" id="first">
+                            <p id="fname">Jevaa's Timeline</p>
+
+                            <div id="upcoming">Upcoming </div>
+                            <p id="no">No Upcoing Activities</p>
+                            <hr>
+                            <p id="fname">Past Activities</p>
+                            <div id="idate">Feb 24,2014</div>
+                            <div><span class="ms"><i class="fa-solid fa-message msg"></i></span>
+                                VOE -Arificiall intelligency
+                                <span><i class="fa-solid fa-angle-left left1"></i></span>
+                            </div>
+                            <div id="idate">Feb 24,2014</div>
+
+                            <div><span class="en"><i class="fa-solid fa-envelope-open"></i></span>
+                                Pre-Approval-Conventional Purches
+                                <span><i class="fa-solid fa-angle-left left2"></i></span>
+                            </div>
+                            <div id="idate">Feb 24,2014</div>
+
+                            <div><span class="boo"><i class="fa-solid fa-book"></i></span>
+                                Request Document
+                                <span><i class="fa-solid fa-angle-left left3"></i></span>
+                            </div>
+                            <div><span class="en"><i class="fa-solid fa-envelope-open"></i></span>
+                                Here is list of document
+                                <span><i class="fa-solid fa-angle-left left4"></i></span>
+                            </div>
+                            <div><span class="em"><i class="fa-solid fa-at"></i></span>
+                                Email
+                                <span><i class="fa-solid fa-angle-left lefticonl"></i></span>
+                            </div>
+                        </div>
+
+                        <!-- info forth -->
+                        <div class="info dnone" id="first">
+                            <p id="fname">Zenab Timeline</p>
+
+                            <div id="upcoming">Upcoming </div>
+                            <p id="no">No Upcoing Activities</p>
+                            <hr>
+                            <p id="fname">Past Activities</p>
+                            <div id="idate">Feb 24,2014</div>
+                            <div><span class="ms"><i class="fa-solid fa-message msg"></i></span>
+                                VOE -Arificiall intelligency
+                                <span><i class="fa-solid fa-angle-left left1"></i></span>
+                            </div>
+                            <div id="idate">Feb 24,2014</div>
+
+                            <div><span class="en"><i class="fa-solid fa-envelope-open"></i></span>
+                                Pre-Approval-Conventional Purches
+                                <span><i class="fa-solid fa-angle-left left2"></i></span>
+                            </div>
+                            <div id="idate">Feb 24,2014</div>
+
+                            <div><span class="boo"><i class="fa-solid fa-book"></i></span>
+                                Request Document
+                                <span><i class="fa-solid fa-angle-left left3"></i></span>
+                            </div>
+                            <div><span class="en"><i class="fa-solid fa-envelope-open"></i></span>
+                                Here is list of document
+                                <span><i class="fa-solid fa-angle-left left4"></i></span>
+                            </div>
+                            <div><span class="em"><i class="fa-solid fa-at"></i></span>
+                                Email
+                                <span><i class="fa-solid fa-angle-left lefticonl"></i></span>
+                            </div>
+                        </div>
+
+                        <!-- info fifth -->
+                        <div class="info dnone" id="first">
+                            <p id="fname">Mahi Timeline</p>
+
+                            <div id="upcoming">Upcoming </div>
+                            <p id="no">No Upcoing Activities</p>
+                            <hr>
+                            <p id="fname">Past Activities</p>
+                            <div id="idate">Feb 24,2014</div>
+                            <div><span class="ms"><i class="fa-solid fa-message msg"></i></span>
+                                VOE -Arificiall intelligency
+                                <span><i class="fa-solid fa-angle-left left1"></i></span>
+                            </div>
+                            <div id="idate">Feb 24,2014</div>
+
+                            <div><span class="en"><i class="fa-solid fa-envelope-open"></i></span>
+                                Pre-Approval-Conventional Purches
+                                <span><i class="fa-solid fa-angle-left left2"></i></span>
+                            </div>
+                            <div id="idate">Feb 24,2014</div>
+
+                            <div><span class="boo"><i class="fa-solid fa-book"></i></span>
+                                Request Document
+                                <span><i class="fa-solid fa-angle-left left3"></i></span>
+                            </div>
+                            <div><span class="en"><i class="fa-solid fa-envelope-open"></i></span>
+                                Here is list of document
+                                <span><i class="fa-solid fa-angle-left left4"></i></span>
+                            </div>
+                            <div><span class="em"><i class="fa-solid fa-at"></i></span>
+                                Email
+                                <span><i class="fa-solid fa-angle-left lefticonl"></i></span>
+                            </div>
+                        </div>
+
+                        <!-- info sixth -->
+                        <div class="info dnone" id="first">
+                            <p id="fname">Jopesh Timeline</p>
+
+                            <div id="upcoming">Upcoming </div>
+                            <p id="no">No Upcoing Activities</p>
+                            <hr>
+                            <p id="fname">Past Activities</p>
+                            <div id="idate">Feb 24,2014</div>
+                            <div><span class="ms"><i class="fa-solid fa-message msg"></i></span>
+                                VOE -Arificiall intelligency
+                                <span><i class="fa-solid fa-angle-left left1"></i></span>
+                            </div>
+                            <div id="idate">Feb 24,2014</div>
+
+                            <div><span class="en"><i class="fa-solid fa-envelope-open"></i></span>
+                                Pre-Approval-Conventional Purches
+                                <span><i class="fa-solid fa-angle-left left2"></i></span>
+                            </div>
+                            <div id="idate">Feb 24,2014</div>
+
+                            <div><span class="boo"><i class="fa-solid fa-book"></i></span>
+                                Request Document
+                                <span><i class="fa-solid fa-angle-left left3"></i></span>
+                            </div>
+                            <div><span class="en"><i class="fa-solid fa-envelope-open"></i></span>
+                                Here is list of document
+                                <span><i class="fa-solid fa-angle-left left4"></i></span>
+                            </div>
+                            <div><span class="em"><i class="fa-solid fa-at"></i></span>
+                                Email
+                                <span><i class="fa-solid fa-angle-left lefticonl"></i></span>
+                            </div>
+                        </div>
+
+                        <!-- info seventh -->
+                        <div class="info dnone">
+                            <p id="fname">John Timeline</p>
+
+                            <div id="upcoming">Upcoming </div>
+                            <p id="no">No Upcoing Activities</p>
+                            <hr>
+                            <p id="fname">Past Activities</p>
+                            <div id="idate">Feb 24,2014</div>
+                            <div><span class="ms"><i class="fa-solid fa-message msg"></i></span>
+                                VOE -Arificiall intelligency
+                                <span><i class="fa-solid fa-angle-left left1"></i></span>
+                            </div>
+                            <div id="idate">Feb 24,2014</div>
+
+                            <div><span class="en"><i class="fa-solid fa-envelope-open"></i></span>
+                                Pre-Approval-Conventional Purches
+                                <span><i class="fa-solid fa-angle-left left2"></i></span>
+                            </div>
+                            <div id="idate">Feb 24,2014</div>
+
+                            <div><span class="boo"><i class="fa-solid fa-book"></i></span>
+                                Request Document
+                                <span><i class="fa-solid fa-angle-left left3"></i></span>
+                            </div>
+                            <div><span class="en"><i class="fa-solid fa-envelope-open"></i></span>
+                                Here is list of document
+                                <span><i class="fa-solid fa-angle-left left4"></i></span>
+                            </div>
+                            <div><span class="em"><i class="fa-solid fa-at"></i></span>
+                                Email
+                                <span><i class="fa-solid fa-angle-left lefticonl"></i></span>
+                            </div>
+                        </div>
+
+                        <!-- info eight -->
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+    <!-- <script>
+        $(document).ready(function () {
+            $(".dnone").hide();
+            $(".btn").click(function () {
+                $(".dnone").hide();
+                var showJsonVal = $(this).val();
+                $(".dnone").eq(showJsonVal).show();
+            });
+        });
+    </script> -->
+
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
